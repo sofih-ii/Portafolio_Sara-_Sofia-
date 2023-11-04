@@ -3,60 +3,109 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f9f9f9;
-}
-
-h1, h2 {
+  }
+  
+  h1, h2 {
     color: #333;
-}
-
-a {
+  }
+  
+  a {
     color: #0077cc;
     text-decoration: none;
-}
-h1 {
+  }
+  
+  h1 {
     background-color: #0077cc;
     color: white;
     padding: 20px;
     text-align: center;
-}
-
-p {
+  }
+  
+  p {
     margin: 10px 0;
     padding: 0 20px;
-}
-ul {
+  }
+  
+  ul {
     list-style-type: square;
     padding: 0 40px;
-}
-table {
+  }
+  
+  table {
     width: 80%;
     margin: 20px auto;
     border-collapse: collapse;
-}
-
-table, th, td {
+  }
+  
+  table, th, td {
     border: 1px solid #ccc;
-}
-
-
-input[type="email"], textarea {
+  }
+  
+  input[type="email"], textarea {
     width: 100%;
     padding: 10px;
     margin-bottom: 20px;
     border: 1px solid #ccc;
     border-radius: 4px;
-}
-
-input[type="submit"] {
+  }
+  
+  input[type="submit"] {
     background-color: #0077cc;
     color: white;
     padding: 10px 20px;
     border: none;
     border-radius: 4px;
     cursor: pointer;
-}
-
-input[type="submit"]:hover {
+  }
+  
+  input[type="submit"]:hover {
     background-color: #0055a4;
-}
-
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: #eaeaea;
+    border-bottom: 2px solid black;
+  }
+  
+  .mis-proyectos {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+  
+  main {
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  article {
+    position: relative;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .proyecto-detalle {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  img {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    width: 100%;
+    height: auto;
+  }
+  
+img {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    width: 50%; /* Ajuste para reducir el tamaño a la mitad */
+    height: auto;
+  }
+  
